@@ -8,7 +8,7 @@ if __name__ == '__main__':
     # Inputs
     stream_url = 'https://c3icy.prod.playlists.ihrhls.com/1325_icy'
     max_file_size = 1048576 * 5
-    buffer_size = max_file_size/2
+    buffer_size = int(max_file_size/2)
 
     while True:
 
